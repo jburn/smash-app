@@ -1,5 +1,26 @@
-font-face {
-    font-family: consolas;
+body {
+    background-color: black;
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.transparent {
+    background-color: black;
+    opacity: 0.2;
+}
+
+body {
+    margin-top: 20%;
+}
+
+.menu_item {
+    color: antiquewhite;
+}
+
+.side_filler {
+    width: 20%;
+    height: 100%;
 }
 
 #current_players {
@@ -12,6 +33,9 @@ font-face {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 60%;
 }
 
 #menu_container {
