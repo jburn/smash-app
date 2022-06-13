@@ -1,21 +1,16 @@
-body {
+html, body {
     background-color: black;
     background-image: url("img/background.png");
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.transparent {
-    background-color: black;
-    opacity: 0.2;
-}
-
-body {
-    margin-top: 20%;
+    height: 100%;
+    margin: 0px;
 }
 
 .menu_item {
     color: antiquewhite;
+    font-size: 40px;
+    font-family: 'Consolas';
 }
 
 .side_filler {
@@ -23,23 +18,21 @@ body {
     height: 100%;
 }
 
-#current_players {
-    flex-direction: row;
-    justify-content: space-around;
-    display: flex;
-}
-
 #menu_items {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     height: 100%;
-    width: 60%;
+    width: 54%;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #menu_container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
